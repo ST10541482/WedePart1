@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+ <head>
+    <title>NON Profit organisation for a community food bank:TSIMOLOGO</title>
+ </head>
+ <body>
+  <h1>Welcome to our non profit organisation</h1>
+ <nav>
+    <a href="Index.html">Home</a>
+    <a href="About.html">About Us</a>
+    <a href="Contact.html">Contact Us</a>
+    <a href="Services.html">Our Services</a>
+    <a href="Gallery.html">Gallery</a>
+
+
+ </nav>
+ <br>
+<p>If you would like to get in touch with us, please fill out the contact form below:</p>
+<br>
+<form action="submit_form.php" method="post">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message"></textarea><br>
+  <input type="submit" value="Submit"><br>
+  <textarea id="feedback" name="feedback" placeholder="Your feedback..."></textarea><br>
+  <label for="rating">Rating:</label><br>
+  <select id="rating" name="rating">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+   <input type="submit" value="Submit"><br>
+   <label for="volunteer">Volunteer:</label><br>
+   <input type="checkbox" id="volunteer" name="volunteer" value="yes"> Yes, I want to volunteer!
+</form>
+
+<br>
+
+<form action>
+   <label for="subscribe">Subscribe to our newsletter:</label><br>
+   <input type="email" id="subscribe" name="subscribe" placeholder="Enter your email"><br>
+   <input type="submit" value="Subscribe">
+   <br>
+   <form action>
+   <label for="feedback">Feedback:</label><br>
+   <textarea id="feedback" name="feedback" placeholder="Your feedback..."></textarea><br>
+   <input type="submit" value="Submit">
+   <label for="thank_you">Thank You:</label><br>
+   <textarea id="thank_you" name="thank_you" placeholder="Your message..."></textarea><br>
+</form>
+</form>
+<br>
+<p>Street Address: <Address>123 Main St, Anytown, USA</Address></p>
+<p>Phone: (123) 456-7890</p>
+<p>Email: info@foodbank.org</p>
+<p>Website: www.foodbank.org</p>
+<p>Social Media: 
+   <a href="https://www.facebook.com/foodbank">Facebook</a>, 
+   <a href="https://www.twitter.com/foodbank">Twitter</a>, 
+   <a href="https://www.instagram.com/foodbank">Instagram</a>
+
+   <br>
+   <form action>
+      <label for="donate">Donate:</label><br>
+      <input type="text" id="donate" name="donate" placeholder="Enter donation amount"><br>
+      <input type="submit" value="Donate">
+      <input type="hidden" name="form_type" value="donation">
+      <input type="hidden" name="thank_you" value="Thank you for your donation!">
+      <input type="hidden" name="email" value="">
+      <input type="hidden" name="amount" value="">
+      <input type="hidden" name="currency" value="USD">
+      <input type="hidden" name="thank_you" value="Thank you for your donation!">
+
+   </form>
+   </p>
+   <br>
+   <form action>
+      <label for="volunteer">Volunteer:</label><br>
+      <input type="checkbox" id="volunteer" name="volunteer" value="yes"> Yes, I want to volunteer!<br>
+      <input type="submit" value="Submit">
+      </form>
+
+      <br>
+      <form action>
+         <label for ="Food delivery">Food delivery:</label><br>
+         <input type="checkbox" id="food_delivery" name="food_delivery" value="yes"> Yes, I need food delivery!
+         <label for="food_delivery_address">Delivery Address:</label><br>
+         <input type="text" id="food_delivery_address" name="food_delivery_address" placeholder="Enter your address"><br>
+         <label for="food_delivery_time">Preferred Delivery Time:</label><br>
+         <input type="text" id="food_delivery_time" name="food_delivery_time" placeholder="Enter preferred delivery time"><br>
+         <label for="food_delivery_instructions">Special Instructions:</label><br>
+         <textarea id="food_delivery_instructions" name="food_delivery_instructions" placeholder="Enter any special instructions"></textarea><br>
+         <input type="submit" value="Submit">
+      </form>
+      <br>
+      <form action>
+         <label for="food_distribution_date">Date for food distribution:</label><br>
+         <input type="date" id="food_distribution_date" name="food_distribution_date"><br>
+         <input type="submit" value="Submit">
+      
+      </form>
+
+</body>
