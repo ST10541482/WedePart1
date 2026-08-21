@@ -22,33 +22,33 @@ Reference list
 Bibliography
 bank, 7. w. y. c. s. y. l. f., 2025. 7 ways you can support your local food bank. [Online] 
 Available at: https://www.peacehealth.org/healthy-you/7-ways-you-can-support-your-local-food-bank
-[Accessed 23 August 2025].
+[Accessed 20 August 2026].
 Banks, W. I. I. I. T. D. T. F., 2023. Why Is It Important To Donate To Food Banks. [Online] 
 Available at: https://localfoodbank.org/why-is-it-important-to-donate-to-food-banks/
-[Accessed 25 August 2025].
+[Accessed 19 August 2026].
 Bazergi, C., 2016. The Role of Food Banks in Addressing Food Insecurity: A Systematic Review. [Online] 
 Available at: https://pubmed.ncbi.nlm.nih.gov/26728281/
 Communities?, H. H. F. B. H. I., 2024. How Have Food Banks Helped Improve Communities?. [Online] 
 Available at: https://www.catholiccharities.com/articles/how-have-food-banks-helped-improve-communities
-[Accessed 27 August 2025].
+[Accessed 18 August 2026].
 Food Banks 101: Understanding, D. a. V., 2024. Food Banks 101: Understanding, Donating, and Volunteering. [Online] 
 Available at: https://www.oddbox.co.uk/blog/food-banks-101?srsltid=AfmBOorDDFMDO_DS0J6rHXHFpYNtQemWBcc85_qnmtADb5gEemy5ZRDy
-[Accessed 26 August 2025].
+[Accessed 20 August 2026].
 Lutz, K., 2021. The Global Foodbanking Network. [Online] 
 Available at: https://www.foodbanking.org/blogs/scoping-and-launching-a-food-bank/
-[Accessed 26 August 2025].
+[Accessed 19 August 2026].
 matter, 5. r. w. f. b., 2024. 5 reasons why food banks matter. [Online] 
 Available at: https://www.cargill.com/story/five-things-you-need-to-know-about-food-banks
-[Accessed 26 August 2025].
+[Accessed 20 August 2026].
 needy, F. b. r. o. t. t., 2009. Food banks reach out to the needy. [Online] 
 Available at: https://brandsouthafrica.com/106801/government-services/foodbank-101109/
-[Accessed 25 August 2025].
+[Accessed 21 August 2026].
 unfolded, F., 2023. Food unfolded. [Online] 
 Available at: https://www.foodunfolded.com/article/food-banks-are-they-beneficial-to-society
-[Accessed 27 August 2025].
+[Accessed 19 August 2026].
 Young, K., 2022. Everything you need to know about food banks. [Online] 
 Available at: https://restless.co.uk/money/everyday-finance/everything-you-need-to-know-about-food-banks/
-[Accessed s26 August 2025].
+[Accessed 20 August 2026].
 
 
 
