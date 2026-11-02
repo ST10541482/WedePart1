@@ -1,116 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tshimologo Food Bank | Enquiry</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <title>Make an Enquiry | Tshimologo Food Bank</title>
+
+    <meta name="description"
+        content="Contact Tshimologo Food Bank to enquire about food donations, volunteering, sponsorship and community partnerships.">
+
+    <meta name="keywords"
+        content="food bank enquiry, volunteer enquiry, food donations, sponsorship">
+
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-<header class="site-header">
-    <div class="container">
-
-        <h1>Tshimologo Food Bank</h1>
-
-        <nav>
-            <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Programmes</a></li>
-                <li><a href="enquiry.html" class="active">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </div>
-</header>
-
-<main>
-
-    <section class="page-banner">
+    <header>
         <div class="container">
-            <h2>Make an Enquiry</h2>
-            <p>Volunteer, donate or support our programmes.</p>
+            <h1>Tshimologo Food Bank</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Programmes</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <section class="section">
-        <div class="container">
+    <main>
 
-            <h2>Volunteer or Sponsor Enquiry</h2>
+        <section class="page-banner">
+            <div class="container">
+                <h2>Make an Enquiry</h2>
+                <p>We would be happy to hear from you.</p>
+            </div>
+        </section>
 
-            <p>
-                Complete the form below if you would like to volunteer,
-                donate food, become a sponsor or work with us on a community
-                project.
-            </p>
+        <section class="section">
+            <div class="container">
 
-            <form id="enquiryForm" class="form">
+                <h2>Enquiry Form</h2>
 
-                <div class="form-group">
+                <p>
+                    Complete the form below if you would like
+                    information about our programmes,
+                    volunteering opportunities or sponsorship.
+                </p>
+
+                <form id="enquiryForm" action="#" method="post">
+
                     <label for="name">Full Name:</label>
-                    <input type="text" id="name" name="name"
-                           placeholder="Enter your full name" required>
-                </div>
 
-                <div class="form-group">
+                    <input type="text"
+                        id="name"
+                        name="name"
+                        required
+                        minlength="2"
+                        maxlength="60">
+
                     <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email"
-                           placeholder="Enter your email address" required>
-                </div>
 
-                <div class="form-group">
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone"
-                           placeholder="Enter your phone number" required>
-                </div>
+                    <input type="email"
+                        id="email"
+                        name="email"
+                        required>
 
-                <div class="form-group">
+                    <label for="phone">Contact Number:</label>
+
+                    <input type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        pattern="[0-9+ ]{10,15}"
+                        title="Enter a valid contact number">
+
                     <label for="type">Type of Enquiry:</label>
 
                     <select id="type" name="type" required>
-                        <option value="">Please select</option>
-                        <option value="volunteer">Volunteer</option>
-                        <option value="food-donation">Food Donation</option>
-                        <option value="sponsorship">Sponsorship</option>
-                        <option value="partnership">Community Partnership</option>
+
+                        <option value="">Select an option</option>
+
+                        <option value="Food Donation">
+                            Food Donation
+                        </option>
+
+                        <option value="Volunteering">
+                            Volunteering
+                        </option>
+
+                        <option value="Sponsorship">
+                            Sponsorship
+                        </option>
+
+                        <option value="Community Partnership">
+                            Community Partnership
+                        </option>
+
                     </select>
-                </div>
 
-                <div class="form-group">
-                    <label for="message">Message:</label>
+                    <label for="message">Your Message:</label>
 
-                    <textarea id="message" name="message"
-                              rows="6"
-                              placeholder="Tell us how you would like to help"
-                              required></textarea>
-                </div>
+                    <textarea id="message"
+                        name="message"
+                        rows="5"
+                        minlength="10"
+                        maxlength="500"
+                        required></textarea>
 
-                <button type="submit" class="button">
-                    Submit Enquiry
-                </button>
+                    <button type="submit" class="btn">
+                        Submit Enquiry
+                    </button>
 
-                <p id="formMessage" class="form-message"></p>
+                    <p id="formMessage" class="form-message"
+                        aria-live="polite"></p>
 
-            </form>
+                </form>
 
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear">2026</span>
+                Tshimologo Food Bank. All rights reserved.</p>
         </div>
-    </section>
+    </footer>
 
-</main>
-
-<footer class="site-footer">
-    <div class="container">
-        <p>
-            &copy; 2026 Tshimologo Food Bank. Fictional organisation created
-            for academic purposes.
-        </p>
-    </div>
-</footer>
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
