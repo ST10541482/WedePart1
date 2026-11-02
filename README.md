@@ -76,6 +76,113 @@ Technical requirements
 
 
 
+Changelog
+Part 1 – Initial Website Development
+Created the initial Tshimologo Food Bank website.
+Developed the Home page.
+Added the About Us page.
+Created the Services page.
+Added the Gallery page.
+Created the Contact and Enquiry pages.
+Added initial website navigation.
+Added images and basic website content.
+Part 2 – Website Styling and Improvements
+Created an external CSS stylesheet.
+Improved the website colours and typography.
+Added styling for navigation menus and buttons.
+Improved the layout of the website pages.
+Introduced consistent styling across the website.
+Organised website files into folders.
+Added a README file to explain the project.
+Part 3 – Enhancing Functionality and SEO
+
+HTML Improvements
+
+Improved the structure of all six website pages.
+Added page titles and meta descriptions.
+Improved headings and navigation links.
+Added HTML5 form elements.
+Added alternative text to gallery images.
+
+CSS Improvements
+
+Improved the overall website appearance.
+Added consistent colours, spacing and typography.
+Improved form layouts and buttons.
+Added responsive styling for different screen sizes.
+Improved the appearance of the gallery and content cards.
+
+JavaScript Improvements
+
+Added interactive tabs to the About Us page.
+Added an accordion for frequently asked questions.
+Added a search function to the Services page.
+Added a gallery lightbox.
+Added animated statistics.
+Added newsletter form interaction.
+Added form validation.
+Added an interactive map to the Contact page.
+
+SEO Improvements
+
+Added relevant page titles.
+Added meta descriptions and keywords.
+Added alternative text to images.
+Created a robots.txt file.
+Created a sitemap.xml file.
+Improved internal navigation between pages.
+
+Documentation and Deployment
+
+Updated the README file.
+Added a detailed project changelog.
+Prepared the website for deployment using a free hosting platform.
+
+
+
+
+
+ Future Improvements
+
+Possible future improvements include:
+
+Connecting enquiry forms to a real submission service.
+Adding a database to store enquiries.
+Connecting the newsletter to a real subscription service.
+Adding genuine organisation social media accounts.
+Adding more photographs of community activities.
+Improving website loading speed.
+Adding more accessibility features.
+
+
+ Conclusion
+
+The Tshimologo Food Bank website demonstrates how HTML, CSS and JavaScript can be used to create a functional and informative website. The project provides visitors with information about the organisation, its services and ways to participate in community support activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
