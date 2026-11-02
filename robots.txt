@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+
+https://github.com/ST10541482/WedePart1/blob/main/sitemap.xml
